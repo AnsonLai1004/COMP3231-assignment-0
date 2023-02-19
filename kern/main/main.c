@@ -135,9 +135,7 @@ boot(void)
 	kheap_nextgeneration();
 
 	{ 
-		/* remove this section of code to fix ASST0 */
-		char *foo = NULL; 	/* create a NULL pointer */
-		* foo = 'x'; 		/* attempt to access it */
+		
 	}
 	
 	/*
